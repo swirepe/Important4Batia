@@ -36,7 +36,7 @@ def setup():
     api = twitter.Api(consumer_key=open("consumer_key.txt").read(),
         consumer_secret=open('consumer_secret.txt').read(),
         access_token_key=open('access_token_key.txt').read(),
-        access_token_secret='eomElR6mh4A4nTIq5Z6e0bQmrmQro1DLaOc534muVw')
+        access_token_secret=open('access_token_secret.txt').read())
 
 
 
